@@ -1,0 +1,24 @@
+{
+  "name": "@neos21/npm",
+  "version": "0.0.0",
+  "description": "NPM : Neo's Password Manager",
+  "main": "index.js",
+  "bin": {
+    "np": "index.js"
+  },
+  "dependencies": {
+    "columnify": "1.5.4",
+    "commander": "2.19.0",
+    "crypto-js": "3.1.9-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/neos-password-manager.git"
+  },
+  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Neos21/neos-password-manager/issues"
+  },
+  "homepage": "https://github.com/Neos21/neos-password-manager#readme"
+}
