@@ -1,6 +1,6 @@
 {
   "name": "@neos21/npm",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "NPM : Neo's Password Manager",
   "main": "index.js",
   "bin": {
