@@ -1,4 +1,4 @@
-# Neo's Password Manager : @neos21/npm
+# NPM : Neo's Password Manager : @neos21/npm
 
 [![NPM Version](https://img.shields.io/npm/v/@neos21/npm.svg)](https://www.npmjs.com/package/@neos21/npm)
 
