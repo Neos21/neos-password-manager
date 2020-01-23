@@ -42,10 +42,10 @@ $ np --version
 
 ```sh
 # ロングオプション
-$ np add twitter --id my_user --pass my_password --mail me@example.com --url 'https://twitter.com/my_user' --text 備考
+$ np add facebook --id my_user --pass my_password --mail me@example.com --url 'https://facebook.com/my_user' --text 備考
 
 # エイリアス・同サービスに別アカウントの情報を登録
-$ np a twitter --id second_user --pass my_password
+$ np a facebook --id second_user --pass my_password
 
 # ショートオプション
 $ np add instagram -i 'my_user' -p 'my_password' -m 'me@example.com' -u 'https://instagram.com/my_user' -t '備考'
@@ -71,12 +71,12 @@ $ np add --help
 
 ```json
 {
-  "twitter": [
+  "facebook": [
     {
       "id": "my_user",
       "pass": "U2FsdGVkX1/C3EDO1MrOLpaWBKnOw1bDeEwR5JGw/IQ=",
       "mail": "me@example.com",
-      "url": "https://twitter.com/my_user",
+      "url": "https://facebook.com/my_user",
       "text": "備考",
       "updatedAt": "2018-12-12T02:23:08.881Z",
       "createdAt": "2018-12-12T02:23:08.881Z"
@@ -141,7 +141,7 @@ $ np g --id my_user
 
 Service Name | ID      | Password    | E-Mail         | URL                           | Text
 ------------ | --      | --------    | ------         | ---                           | ----
-twitter      | my_user | my_password | me@example.com | https://twitter.com/my_user   | 備考
+faceook      | my_user | my_password | me@example.com | https://facebook.com/my_user  | 備考
 instagram    | my_user | my_password | me@example.com | https://instagram.com/my_user | 備考
 ```
 
@@ -192,13 +192,13 @@ instagram    | my_user     | my_password | me@example.com | https://instagram.co
 
 ```sh
 # サービス名と ID を指定
-$ np rm twitter --id my_user
+$ np rm facebook --id my_user
 
 # エイリアス・サービス名と E-mail を指定
-$ np r twitter --mail me@example.com
+$ np r facebook --mail me@example.com
 
 # ショートオプション・サービス名と ID、E-mail を両方指定
-$ np rm twitter -i 'my_user' -m 'me@example.com'
+$ np rm facebook -i 'my_user' -m 'me@example.com'
 
 # このコマンドのヘルプを表示します
 $ np rm --help
@@ -212,7 +212,7 @@ $ np rm --help
 コマンドの実行例は以下のとおりです。
 
 ```sh
-$ np rm twitter --id my_user
+$ np rm facebook --id my_user
 1 件削除しました
 ```
 
@@ -220,7 +220,7 @@ $ np rm twitter --id my_user
 
 ```json
 {
-  "twitter": [
+  "facebook": [
     {
       "id": "second_user",
       "pass": "U2FsdGVkX19DKWBMkL4PhRVccAE5/eA86VgcbYh7XUI=",
@@ -245,7 +245,7 @@ $ np rm twitter --id my_user
 
 ## Author
 
-[Neo](http://neo.s21.xrea.com/) ([@Neos21](https://twitter.com/Neos21))
+[Neo](http://neo.s21.xrea.com/)
 
 - [GitHub - neos-password-manager](https://github.com/Neos21/neos-password-manager)
 - [npm - @neos21/npm](https://www.npmjs.com/package/@neos21/npm)
