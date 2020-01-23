@@ -180,8 +180,8 @@ $ np get-all
 
 Service Name | ID          | Password    | E-Mail         | URL                           | Text
 ------------ | --          | --------    | ------         | ---                           | ----
-twitter      | my_user     | my_password | me@example.com | https://twitter.com/my_user   | 備考
-twitter      | second_user | my_password |                |                               |
+facebook     | my_user     | my_password | me@example.com | https://facebook.com/my_user  | 備考
+facebook     | second_user | my_password |                |                               |
 instagram    | my_user     | my_password | me@example.com | https://instagram.com/my_user | 備考
 ```
 
