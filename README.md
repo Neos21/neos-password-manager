@@ -1,6 +1,6 @@
 # NPM : Neo's Password Manager : @neos21/npm
 
-[![NPM Version](https://img.shields.io/npm/v/@neos21/npm.svg)](https://www.npmjs.com/package/@neos21/npm)
+[![NPM Version](https://img.shields.io/npm/v/@neos21/npm.svg)](https://www.npmjs.com/package/@neos21/npm) [![GPR Version](https://img.shields.io/github/package-json/v/neos21/neos-password-manager?label=github)](https://github.com/Neos21/neos-password-manager/packages/328027)
 
 ID やパスワードなどの情報を JSON ファイルに保存し、アカウント情報を管理できるコマンドです。
 
