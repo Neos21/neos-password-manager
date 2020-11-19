@@ -1,4 +1,4 @@
-# NPM : Neo's Password Manager : @neos21/npm
+# @neos21/npm : NPM : Neo's Password Manager
 
 [![NPM Version](https://img.shields.io/npm/v/@neos21/npm.svg)](https://www.npmjs.com/package/@neos21/npm) [![GPR Version](https://img.shields.io/github/package-json/v/neos21/neos-password-manager?label=github)](https://github.com/Neos21/neos-password-manager/packages/328027)
 
@@ -243,19 +243,9 @@ $ np rm facebook --id my_user
 ```
 
 
-## Author
-
-[Neo](http://neo.s21.xrea.com/)
-
-- [GitHub - neos-password-manager](https://github.com/Neos21/neos-password-manager)
-- [npm - @neos21/npm](https://www.npmjs.com/package/@neos21/npm)
-
-
 ## Links
 
-- [Neo's World](http://neo.s21.xrea.com/)
-- [Corredor](https://neos21.hatenablog.com/)
-- [Murga](https://neos21.hatenablog.jp/)
-- [El Mylar](https://neos21.hateblo.jp/)
-- [Neo's GitHub Pages](https://neos21.github.io/)
+- [Neo's World](https://neos21.net/)
 - [GitHub - Neos21](https://github.com/Neos21/)
+- [GitHub - neos-password-manager](https://github.com/Neos21/neos-password-manager)
+- [npm - @neos21/npm](https://www.npmjs.com/package/@neos21/npm)
